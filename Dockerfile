@@ -10,4 +10,5 @@ RUN apk add --update --no-cache; \
     pip3 install hvac; \
     pip3 install hvac[parser]; \
     pip3 install python-consul; \
+    pip3 install yamllint; \
     apk del .build-deps
